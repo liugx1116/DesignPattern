@@ -1,5 +1,7 @@
 package com.atgx.builder.improve;
 
+import org.junit.Test;
+
 /**
  * @author lgx
  * @description: 建造者模式
