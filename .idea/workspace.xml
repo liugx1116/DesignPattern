@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/classadapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/classadapter/IVoltage5V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/classadapter/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/classadapter/Voltage220V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/classadapter/VoltageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/interfaceadapter/AbsAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/interfaceadapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/interfaceadapter/Interface4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/objectadapter/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/objectadapter/IVoltage5V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/objectadapter/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/objectadapter/Voltage220V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/objectadapter/VoltageAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/other/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/other/Clienter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/other/Ps2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/other/Usb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/other/Usber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/bridge/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/bridge/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/bridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/bridge/FoldedPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/bridge/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/bridge/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/bridge/UpRightPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/builder/improve/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/builder/improve/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +68,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atgx.adapter.objectadapter.Client" />
       <module name="DesignPattern" />
@@ -94,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.builder.improve.Client" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.bridge.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgx.builder.improve.*" />
+          <option name="PATTERN" value="com.atgx.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Clienter" />
         <item itemvalue="JUnit.Client.test01" />
-        <item itemvalue="Application.Client (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +169,7 @@
       <workItem from="1655168185492" duration="11470000" />
       <workItem from="1655773425809" duration="34823000" />
       <workItem from="1658106421735" duration="3000" />
-      <workItem from="1658106437499" duration="23989000" />
+      <workItem from="1658106437499" duration="28189000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -190,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658452998753</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="适配器模式-类适配器；接口适配器；对象适配器">
+      <created>1658969428883</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658969428948</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +193,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式：建造者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式：建造者模式" />
+    <MESSAGE value="适配器模式-类适配器；接口适配器；对象适配器" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配器模式-类适配器；接口适配器；对象适配器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
