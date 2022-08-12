@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/composite/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/composite/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/composite/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/composite/OrganizationComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/composite/University.java" afterDir="false" />
+    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="适配器模式-组合模式；">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/facade/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/facade/DVDPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/facade/HomeTheaterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/facade/Popcorn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/facade/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/facade/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/facade/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/facade/TheaterLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.atgx.composite.Client">
+  <component name="RunManager" selected="Application.com.atgx.facade.Client">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -118,19 +120,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Clienter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.adapter.other.Clienter" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atgx.adapter.other.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.atgx.composite.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atgx.composite.Client" />
       <module name="DesignPattern" />
@@ -144,13 +133,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.atgx.facade.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.facade.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atgx.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.atgx.facade.Client" />
         <item itemvalue="Application.com.atgx.composite.Client" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Clienter" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +168,7 @@
       <workItem from="1655773425809" duration="34823000" />
       <workItem from="1658106421735" duration="3000" />
       <workItem from="1658106437499" duration="28189000" />
-      <workItem from="1660179601553" duration="5043000" />
+      <workItem from="1660179601553" duration="9137000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -182,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658969428948</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="适配器模式-组合模式；">
+      <created>1660208970007</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660208970007</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +211,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式：建造者模式" />
     <MESSAGE value="适配器模式-类适配器；接口适配器；对象适配器" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配器模式-类适配器；接口适配器；对象适配器" />
+    <MESSAGE value="适配器模式-组合模式；" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配器模式-组合模式；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
