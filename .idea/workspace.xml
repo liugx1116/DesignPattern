@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-代理模式-cglib代理；">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/LightReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/NoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/RemoteController.java" afterDir="false" />
+    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-命令模式">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Fail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/ObjectStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Success.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Women.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/prototype/deepclone/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/prototype/deepclone/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/PeanutSoyaMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/PeanutSoyaMilk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/SoyaMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/SoyaMilk.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.atgx.command.Client">
+  <component name="RunManager" selected="Application.com.atgx.visitor.Client">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -114,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atgx.facade.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.facade.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atgx.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.atgx.proxy.cglib.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atgx.proxy.cglib.Client" />
       <module name="DesignPattern" />
@@ -153,13 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.atgx.visitor.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.visitor.Client" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atgx.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.atgx.visitor.Client" />
         <item itemvalue="Application.com.atgx.command.Client" />
         <item itemvalue="Application.com.atgx.proxy.cglib.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.atgx.proxy.staticproxy.Client" />
-        <item itemvalue="Application.com.atgx.facade.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +171,7 @@
       <workItem from="1655773425809" duration="34823000" />
       <workItem from="1658106421735" duration="3000" />
       <workItem from="1658106437499" duration="28189000" />
-      <workItem from="1660179601553" duration="22516000" />
+      <workItem from="1660179601553" duration="24187000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -226,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660623718687</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="设计模式-命令模式">
+      <created>1660784226883</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660784226883</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +254,8 @@
     <MESSAGE value="设计模式-代理模式-静态代理；" />
     <MESSAGE value="设计模式-代理模式-动态代理；" />
     <MESSAGE value="设计模式-代理模式-cglib代理；" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式-代理模式-cglib代理；" />
+    <MESSAGE value="设计模式-命令模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式-命令模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
