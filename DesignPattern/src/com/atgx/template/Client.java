@@ -10,5 +10,4 @@ public class Client {
         SoyaMilk peanutSoyaMilk = new PeanutSoyaMilk();
         peanutSoyaMilk.make();
     }
-
 }

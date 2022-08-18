@@ -4,7 +4,7 @@ package com.atgx.template;
  * 设计模式-模版方法模式  抽象类
  */
 public abstract class SoyaMilk {
-
+    //模板方法, make , 模板方法可以做成 final , 不让子类去覆盖
     final void make(){
         select();
         addCondiments();

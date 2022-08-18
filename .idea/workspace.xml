@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-代理模式-动态代理；">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/cglib/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/cglib/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/cglib/TeacherDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-代理模式-cglib代理；">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/LightReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/command/RemoteController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/dynamic/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/dynamic/ProxyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/prototype/deepclone/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/prototype/deepclone/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/PeanutSoyaMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/PeanutSoyaMilk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/SoyaMilk.java" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/template/SoyaMilk.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +76,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.atgx.proxy.cglib.Client">
+  <component name="RunManager" selected="Application.com.atgx.command.Client">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -95,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atgx.composite.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.composite.Client" />
+    <configuration name="com.atgx.command.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.command.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgx.composite.*" />
+          <option name="PATTERN" value="com.atgx.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.atgx.command.Client" />
         <item itemvalue="Application.com.atgx.proxy.cglib.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.atgx.proxy.staticproxy.Client" />
         <item itemvalue="Application.com.atgx.facade.Client" />
-        <item itemvalue="Application.com.atgx.composite.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +175,7 @@
       <workItem from="1655773425809" duration="34823000" />
       <workItem from="1658106421735" duration="3000" />
       <workItem from="1658106437499" duration="28189000" />
-      <workItem from="1660179601553" duration="17166000" />
+      <workItem from="1660179601553" duration="22516000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -213,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660612821372</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="设计模式-代理模式-cglib代理；">
+      <created>1660623718687</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660623718687</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +250,8 @@
     <MESSAGE value="适配器模式-外观模式；" />
     <MESSAGE value="设计模式-代理模式-静态代理；" />
     <MESSAGE value="设计模式-代理模式-动态代理；" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式-代理模式-动态代理；" />
+    <MESSAGE value="设计模式-代理模式-cglib代理；" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式-代理模式-cglib代理；" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -276,6 +290,26 @@
           <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/dynamic/ProxyFactory.java</url>
           <line>32</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/cglib/Client.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/cglib/Client.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/cglib/ProxyFactory.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/cglib/ProxyFactory.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/interfaceadapter/AbsAdapter.java</url>
