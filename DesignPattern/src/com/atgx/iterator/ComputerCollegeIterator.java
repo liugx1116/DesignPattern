@@ -21,8 +21,9 @@ public class ComputerCollegeIterator implements Iterator {
     public boolean hasNext() {
         if (position >= departments.length || departments[position] == null) {
             return false;
+        }else {
+            return true;
         }
-        return false;
     }
 
     @Override

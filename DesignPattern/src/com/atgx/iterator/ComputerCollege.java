@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * @Author: liugx
  * @CreateTime: 2022-08-19  09:23
- * @Description: TODO
+ * @Description: 迭代器模式- 计算机血缘
  * @Version: 1.0
  */
 public class ComputerCollege implements College{
@@ -29,7 +29,7 @@ public class ComputerCollege implements College{
     public void addDepartment(String name, String desc) {
         Department department = new Department(name , desc);
         departments[numofDepartment] = department;
-        numofDepartment++;
+        numofDepartment += 1;
     }
 
     @Override
