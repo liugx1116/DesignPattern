@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-命令模式">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Fail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Man.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/ObjectStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Success.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/visitor/Women.java" afterDir="false" />
+    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-访问者模式【没看太懂 照着抄代码】">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/College.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/ComputerCollege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/ComputerCollegeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/InfoColleageIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +58,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -171,7 +169,7 @@
       <workItem from="1655773425809" duration="34823000" />
       <workItem from="1658106421735" duration="3000" />
       <workItem from="1658106437499" duration="28189000" />
-      <workItem from="1660179601553" duration="24187000" />
+      <workItem from="1660179601553" duration="28534000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -229,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660784226883</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="设计模式-访问者模式【没看太懂 照着抄代码】">
+      <created>1660795100057</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660795100057</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +260,8 @@
     <MESSAGE value="设计模式-代理模式-动态代理；" />
     <MESSAGE value="设计模式-代理模式-cglib代理；" />
     <MESSAGE value="设计模式-命令模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式-命令模式" />
+    <MESSAGE value="设计模式-访问者模式【没看太懂 照着抄代码】" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式-访问者模式【没看太懂 照着抄代码】" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
