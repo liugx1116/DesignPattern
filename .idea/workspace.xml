@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-访问者模式【没看太懂 照着抄代码】">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/College.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/ComputerCollege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/ComputerCollegeIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/iterator/InfoColleageIterator.java" afterDir="false" />
+    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-迭代器模式">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/practice/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/practice/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/practice/ProxyFactoryPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/practice/ProxyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.atgx.visitor.Client">
+  <component name="RunManager" selected="Application.ProxyTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -88,6 +87,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atgx.proxy.dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.proxy.practice.ProxyTest" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atgx.proxy.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +133,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atgx.proxy.staticproxy.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.proxy.staticproxy.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atgx.proxy.staticproxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.atgx.visitor.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atgx.visitor.Client" />
       <module name="DesignPattern" />
@@ -149,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.com.atgx.visitor.Client" />
         <item itemvalue="Application.com.atgx.command.Client" />
         <item itemvalue="Application.com.atgx.proxy.cglib.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.com.atgx.proxy.staticproxy.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,7 @@
       <workItem from="1655773425809" duration="34823000" />
       <workItem from="1658106421735" duration="3000" />
       <workItem from="1658106437499" duration="28189000" />
-      <workItem from="1660179601553" duration="28534000" />
+      <workItem from="1660179601553" duration="30040000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660795100057</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="设计模式-迭代器模式">
+      <created>1661303230391</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661303230391</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +267,8 @@
     <MESSAGE value="设计模式-代理模式-cglib代理；" />
     <MESSAGE value="设计模式-命令模式" />
     <MESSAGE value="设计模式-访问者模式【没看太懂 照着抄代码】" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式-访问者模式【没看太懂 照着抄代码】" />
+    <MESSAGE value="设计模式-迭代器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式-迭代器模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -320,6 +327,11 @@
           <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/cglib/ProxyFactory.java</url>
           <line>26</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/practice/ProxyTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/interfaceadapter/AbsAdapter.java</url>
