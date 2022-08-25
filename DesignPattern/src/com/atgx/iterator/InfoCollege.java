@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * 迭代器模式-信息工程血缘
+ * 迭代器模式-信息工程学院
  */
 public class InfoCollege implements College{
 

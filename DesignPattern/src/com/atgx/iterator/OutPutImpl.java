@@ -3,6 +3,9 @@ package com.atgx.iterator;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * 打印
+ */
 public class OutPutImpl {
     List<College> collegeList;
     public OutPutImpl(List<College> collegeList) {

@@ -5,7 +5,7 @@ import java.util.Iterator;
 /**
  * @Author: liugx
  * @CreateTime: 2022-08-19  09:23
- * @Description: 迭代器模式- 计算机血缘
+ * @Description: 迭代器模式- 计算机学院
  * @Version: 1.0
  */
 public class ComputerCollege implements College{
