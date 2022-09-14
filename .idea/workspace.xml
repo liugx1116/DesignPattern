@@ -5,15 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-观察者模式">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/CurrentConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/improve/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/improve/CurrentConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/improve/Google.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/improve/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/improve/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/observer/improve/WeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,24 +42,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/study/DesignPattern2/DesignPattern/lib/cglib-2.2.jar",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/study/DesignPattern2/DesignPattern/lib/cglib-2.2.jar&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\study\DesignPattern2\DesignPattern\src\com\atgx" />
@@ -78,7 +69,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.ClientTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -103,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.proxy.practice.ProxyTest" />
+    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.mediator.smarthouse.ClientTest" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgx.proxy.practice.*" />
+          <option name="PATTERN" value="com.atgx.mediator.smarthouse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atgx.command.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.command.Client" />
+    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.proxy.practice.ProxyTest" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgx.command.*" />
+          <option name="PATTERN" value="com.atgx.proxy.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientTest" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.atgx.observer.Client" />
         <item itemvalue="Application.ProxyTest" />
         <item itemvalue="Application.com.atgx.visitor.Client" />
-        <item itemvalue="Application.com.atgx.command.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +171,8 @@
       <workItem from="1660179601553" duration="30040000" />
       <workItem from="1661388993797" duration="2789000" />
       <workItem from="1661820532438" duration="2139000" />
-      <workItem from="1661822698594" duration="9459000" />
+      <workItem from="1661822698594" duration="10359000" />
+      <workItem from="1662609321301" duration="7730000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -266,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661389347932</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="设计模式-观察者模式">
+      <created>1662021269998</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662021269998</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +360,11 @@
           <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/proxy/practice/ProxyTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/mediator/smarthouse/ConcreteMediator.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/adapter/interfaceadapter/AbsAdapter.java</url>
