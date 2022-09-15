@@ -4,7 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-观察者模式">
+    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-中介者模式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientTest">
+  <component name="RunManager" selected="Application.com.atgx.responsibilitychain.Client">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -133,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atgx.visitor.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.visitor.Client" />
+    <configuration name="com.atgx.responsibilitychain.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.responsibilitychain.Client" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgx.visitor.*" />
+          <option name="PATTERN" value="com.atgx.responsibilitychain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.atgx.responsibilitychain.Client" />
         <item itemvalue="Application.ClientTest" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.com.atgx.observer.Client" />
         <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.com.atgx.visitor.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +172,7 @@
       <workItem from="1661388993797" duration="2789000" />
       <workItem from="1661820532438" duration="2139000" />
       <workItem from="1661822698594" duration="10359000" />
-      <workItem from="1662609321301" duration="7730000" />
+      <workItem from="1662609321301" duration="12188000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662021269998</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="设计模式-中介者模式">
+      <created>1663118223114</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663118223114</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +303,8 @@
     <MESSAGE value="设计模式-练习动态代理" />
     <MESSAGE value="设计模式-迭代器模式-修改注释" />
     <MESSAGE value="设计模式-观察者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式-观察者模式" />
+    <MESSAGE value="设计模式-中介者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式-中介者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -363,7 +371,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/DesignPattern/src/com/atgx/mediator/smarthouse/ConcreteMediator.java</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
