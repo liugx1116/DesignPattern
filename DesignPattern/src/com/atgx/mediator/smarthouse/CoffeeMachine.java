@@ -16,4 +16,12 @@ public class CoffeeMachine extends Colleague{
     public void sendMessage(int stateChange) {
         this.getMediator().getMessage(stateChange,name);
     }
+
+    public void startCoffe(){
+        System.out.println("开始制作咖啡");
+    }
+
+    public void endCoffe(){
+        System.out.println("结束制作咖啡");
+    }
 }

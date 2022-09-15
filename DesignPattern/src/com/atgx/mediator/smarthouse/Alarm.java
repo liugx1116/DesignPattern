@@ -14,6 +14,7 @@ public class Alarm extends Colleague {
 
     @Override
     public void sendMessage(int stateChange) {
+        //调用的中介者对象的getMessage
         this.getMediator().getMessage(stateChange , this.name);
     }
 
