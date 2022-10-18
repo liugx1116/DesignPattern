@@ -4,13 +4,20 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-职责链模式">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/interpreter/AddExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/interpreter/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/interpreter/ClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/interpreter/SubExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/interpreter/SymbolExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/interpreter/VarExpression.java" afterDir="false" />
+    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-解释器模式">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/CanRaffleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/DispenseOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/DispenseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/NoRaffleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/RaffleActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/AbstractState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/FeedBackState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/StateEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -48,26 +55,27 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "F:/study/DesignPattern2/DesignPattern/lib/cglib-2.2.jar",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editing.templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/study/DesignPattern2/DesignPattern/src/com/atgx/state&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\DesignPattern2\DesignPattern\src\com\atgx\state" />
       <recent name="F:\study\DesignPattern2\DesignPattern\src\com\atgx" />
       <recent name="F:\study\DesignPattern\DesignPattern\src\com\atgx\adapter\objectadapter" />
     </key>
@@ -75,7 +83,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.atgx.interpreter.ClientTest">
+  <component name="RunManager" selected="Application.com.atgx.state.money.ClientTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -87,25 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.observer.improve.Client" />
+    <configuration name="CanRaffleState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.state.CanRaffleState" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgx.observer.improve.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.mediator.smarthouse.ClientTest" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atgx.mediator.smarthouse.*" />
+          <option name="PATTERN" value="com.atgx.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +121,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atgx.observer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.observer.Client" />
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atgx.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.atgx.responsibilitychain.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atgx.responsibilitychain.Client" />
       <module name="DesignPattern" />
@@ -152,13 +134,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.atgx.state.ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.state.ClientTest" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atgx.state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.atgx.state.money.ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.state.money.ClientTest" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atgx.state.money.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.atgx.state.money.ClientTest" />
+        <item itemvalue="Application.com.atgx.state.ClientTest" />
+        <item itemvalue="Application.CanRaffleState" />
         <item itemvalue="Application.com.atgx.interpreter.ClientTest" />
         <item itemvalue="Application.com.atgx.responsibilitychain.Client" />
-        <item itemvalue="Application.ClientTest" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.com.atgx.observer.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +187,10 @@
       <workItem from="1661820532438" duration="2139000" />
       <workItem from="1661822698594" duration="10359000" />
       <workItem from="1662609321301" duration="14085000" />
-      <workItem from="1665469879444" duration="7753000" />
+      <workItem from="1665469879444" duration="10976000" />
+      <workItem from="1665735375310" duration="594000" />
+      <workItem from="1665979884874" duration="1452000" />
+      <workItem from="1666064753410" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -286,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663205036176</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="设计模式-解释器模式">
+      <created>1665563074940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665563074940</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +337,8 @@
     <MESSAGE value="设计模式-观察者模式" />
     <MESSAGE value="设计模式-中介者模式" />
     <MESSAGE value="设计模式-职责链模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式-职责链模式" />
+    <MESSAGE value="设计模式-解释器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式-解释器模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
