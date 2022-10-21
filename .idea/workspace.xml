@@ -4,20 +4,26 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-解释器模式">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/CanRaffleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/ClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/DispenseOutState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/DispenseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/NoRaffleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/RaffleActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/AbstractState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/ClientTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/FeedBackState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/StateEnum.java" afterDir="false" />
+    <list default="true" id="621b2113-1075-4b9d-b1ee-32bc08516219" name="Default Changelist" comment="设计模式-状态模式">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/cal/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/cal/TestCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java/StaticProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java1/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java1/LambdaTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java1/LambdaTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java1/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java2/ConstructorRefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java2/EmployeeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java2/MethodRefTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java3/StreamAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java3/StreamAPITest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java3/StreamAPITest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java4/Boy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java4/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/jdk8streame/java4/OptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/src/com/atgx/state/money/Allstate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +71,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/study/DesignPattern2/DesignPattern/src/com/atgx/state&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/study/DesignPattern2/DesignPattern/src/com/atgx/jdk8streame&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
@@ -75,6 +81,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\DesignPattern2\DesignPattern\src\com\atgx\jdk8streame" />
       <recent name="F:\study\DesignPattern2\DesignPattern\src\com\atgx\state" />
       <recent name="F:\study\DesignPattern2\DesignPattern\src\com\atgx" />
       <recent name="F:\study\DesignPattern\DesignPattern\src\com\atgx\adapter\objectadapter" />
@@ -83,7 +90,7 @@
       <recent name="com.atgx.adapter.objectadapter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.atgx.state.money.ClientTest">
+  <component name="RunManager" selected="Application.Graph">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -108,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atgx.interpreter.ClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.interpreter.ClientTest" />
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.cal.Graph" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgx.interpreter.*" />
+          <option name="PATTERN" value="com.atgx.cal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.atgx.responsibilitychain.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.atgx.responsibilitychain.Client" />
+    <configuration name="TestCal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atgx.cal.TestCal" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atgx.responsibilitychain.*" />
+          <option name="PATTERN" value="com.atgx.cal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Graph" />
+        <item itemvalue="Application.TestCal" />
         <item itemvalue="Application.com.atgx.state.money.ClientTest" />
         <item itemvalue="Application.com.atgx.state.ClientTest" />
         <item itemvalue="Application.CanRaffleState" />
-        <item itemvalue="Application.com.atgx.interpreter.ClientTest" />
-        <item itemvalue="Application.com.atgx.responsibilitychain.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +197,9 @@
       <workItem from="1665469879444" duration="10976000" />
       <workItem from="1665735375310" duration="594000" />
       <workItem from="1665979884874" duration="1452000" />
-      <workItem from="1666064753410" duration="951000" />
+      <workItem from="1666064753410" duration="3484000" />
+      <workItem from="1666252864879" duration="657000" />
+      <workItem from="1666320490570" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式：建造者模式">
       <created>1658452998752</created>
@@ -304,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665563074940</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="设计模式-状态模式">
+      <created>1666065912581</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666065912581</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +354,8 @@
     <MESSAGE value="设计模式-中介者模式" />
     <MESSAGE value="设计模式-职责链模式" />
     <MESSAGE value="设计模式-解释器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="设计模式-解释器模式" />
+    <MESSAGE value="设计模式-状态模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式-状态模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
