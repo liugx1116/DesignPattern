@@ -2,7 +2,7 @@ package com.atgx.jdk8streame.java3;
 
 import com.atgx.jdk8streame.java2.Employee;
 import com.atgx.jdk8streame.java2.EmployeeData;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;

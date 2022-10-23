@@ -1,6 +1,6 @@
 package com.atgx.jdk8streame.java1;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;

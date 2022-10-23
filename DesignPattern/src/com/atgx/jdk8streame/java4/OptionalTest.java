@@ -1,6 +1,7 @@
 package com.atgx.jdk8streame.java4;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
 
